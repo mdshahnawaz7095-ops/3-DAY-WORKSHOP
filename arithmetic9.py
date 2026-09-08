@@ -1,8 +1,6 @@
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = int(input("Enter third number: "))
+age = int(input("Enter age: "))
 
-if a == b and b == c:
-    print("All are equal")
+if age >= 18:
+    print("Eligible to vote")
 else:
-    print("Not equal")
+    print("Not eligible to vote")
